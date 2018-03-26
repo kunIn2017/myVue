@@ -1,0 +1,111 @@
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, address, del, em, img, strong, 
+sub, sup, dl, dt, dd, ol, ul, li, form, label, caption { 
+margin: 0; 
+padding: 0; 
+border: 0; 
+outline: 0; 
+font-weight: inherit; 
+font-family: inherit; 
+vertical-align: baseline;  
+}
+
+html { 
+font-family: “Helvetica Neue”, Helvetica, Arial, sans-serif, “Microsoft YaHei”, “微软雅黑”; 
+-ms-text-size-adjust: 100%; 
+-webkit-text-size-adjust: 100%; 
+-webkit-tap-highlight-color: rgba(0, 0, 0, 0); 
+height: 100%;
+font-size:100px;
+}
+
+body{ 
+margin: 0; 
+font-size:.12rem;
+line-height: 1.5; 
+color: #5f5f5f; 
+background-color: white; 
+height: 100%; 
+overflow-x: hidden; 
+-webkit-overflow-scrolling: touch;
+background-color:#f7f7f7;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary { 
+display: block; 
+}
+
+img {
+display:block;
+border: 0; 
+margin:0 auto;
+max-width: 100% !important; 
+vertical-align: middle; 
+}
+
+address, caption, cite, code, i, em, strong{ 
+font-weight: normal; 
+font-style: normal; 
+}
+
+ol, ul { 
+list-style: none; 
+}
+.white{background-color:#fff;}
+a {
+color:#5f5f5f;
+background: transparent; 
+text-decoration: none; 
+-webkit-tap-highlight-color: transparent;  
+}
+
+a:active { 
+outline: 0;
+}
+a:link {color: #000;}
+h1, h2, h3, h4, h5, h6 { 
+font-weight: normal; 
+font-size: 100%; 
+}
+
+.bg-white{
+    background-color:#fff;
+}
+.text-center{
+    text-align: center;
+}
+.text-hidden{
+    text-overflow:ellipsis;
+    overflow:hidden;
+    white-space: nowrap;
+}
+button, input, select, textarea { 
+margin: 0; 
+font: inherit; 
+color: inherit; 
+outline: none; 
+-webkit-appearance: none; 
+border-radius: 0; 
+}
+
+{ 
+-webkit-box-sizing: border-box; 
+-moz-box-sizing: border-box; 
+box-sizing: border-box; 
+}
+:before, 
+:after { 
+-webkit-box-sizing: border-box; 
+-moz-box-sizing: border-box; 
+box-sizing: border-box; 
+}
+.hor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap
+}
